@@ -62,3 +62,49 @@ SWITCH(
     5814, "Fast Food",
     "Other (" & 'clean_credit_behavior'[mcc] & ")"
 )
+**2. Retirement Status Segmentation (IF Logic):**
+```dax
+Retirement Status = 
+IF('clean_credit_behavior'[current_age] >= 'clean_credit_behavior'[retirement_age], "Retired", "Working")
+
+---
+
+## 📂 How to Explore This Project
+*1. Clone this repository or download the files to your local machine.
+*2. Review the data cleaning process in the provided .ipynb file.
+*3. 3. Open the `Card Portfolio Analytics.pbit` file using **Power BI Desktop**.
+*4. Use the interactive hover-enabled navigation menu on the left panel to switch between dashboard pages.
+
+**Developed with 💡 and Data by [Virginia Putri Annisa] | [https://www.linkedin.com/in/virginiaputri]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
