@@ -62,12 +62,14 @@ SWITCH(
     5814, "Fast Food",
     "Other (" & 'clean_credit_behavior'[mcc] & ")"
 )
-```**
+```
+---
+
 **2. Retirement Status Segmentation (IF Logic):**
 ```dax
 Retirement Status = 
 IF('clean_credit_behavior'[current_age] >= 'clean_credit_behavior'[retirement_age], "Retired", "Working")
-```**
+```
 
 ---
 
