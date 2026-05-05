@@ -74,10 +74,10 @@ IF('clean_credit_behavior'[current_age] >= 'clean_credit_behavior'[retirement_ag
 ---
 
 ## 📂 How to Explore This Project
-*1. Clone this repository or download the files to your local machine.
-*2. Review the data cleaning process in the provided .ipynb file.
-*3. 3. Open the `Card Portfolio Analytics.pbit` file using **Power BI Desktop**.
-*4. Use the interactive hover-enabled navigation menu on the left panel to switch between dashboard pages.
+1. Clone this repository or download the files to your local machine.
+2. Review the data cleaning process in the provided .ipynb file.
+3. Open the `Card Portfolio Analytics.pbit` file using **Power BI Desktop**.
+4. Use the interactive hover-enabled navigation menu on the left panel to switch between dashboard pages.
 
 ---
 
