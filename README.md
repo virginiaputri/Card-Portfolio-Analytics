@@ -62,10 +62,12 @@ SWITCH(
     5814, "Fast Food",
     "Other (" & 'clean_credit_behavior'[mcc] & ")"
 )
+```**
 **2. Retirement Status Segmentation (IF Logic):**
 ```dax
 Retirement Status = 
 IF('clean_credit_behavior'[current_age] >= 'clean_credit_behavior'[retirement_age], "Retired", "Working")
+```**
 
 ---
 
@@ -75,8 +77,17 @@ IF('clean_credit_behavior'[current_age] >= 'clean_credit_behavior'[retirement_ag
 *3. 3. Open the `Card Portfolio Analytics.pbit` file using **Power BI Desktop**.
 *4. Use the interactive hover-enabled navigation menu on the left panel to switch between dashboard pages.
 
-**Developed with 💡 and Data by [Virginia Putri Annisa] | [https://www.linkedin.com/in/virginiaputri]
+---
 
+## 📬 Let's Connect!
+Thank you for stopping by and reviewing this portfolio analysis! I am always enthusiastic about discussing Data Analytics, Business Intelligence, and data optimization strategies.
+
+If you have any feedback, questions, or collaboration opportunities, feel free to reach out to me via:
+
+* **LinkedIn:** [Virginia Putri Annisa](https://www.linkedin.com/in/virginiaputri/)
+* **Email:** [virginiap1502@gmail.com](mailto:virginiap1502@gmail.com)
+
+⭐️ *If you find this project interesting or helpful, please consider giving it a star!* ⭐️
 
 
 
